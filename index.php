@@ -14,7 +14,7 @@ include('./conection/login.php');
                     </div>
                 </div>
                 <div class="form-group">
-                    <input class="form-control" name="password" placeholder="Contraseña" type="password">
+                    <input class="form-control" type="password" name="password" required placeholder="Contraseña">
                 </div>
                 </div>
                 <div class="text-center"> <br />
