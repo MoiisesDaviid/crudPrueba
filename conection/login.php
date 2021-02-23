@@ -17,8 +17,8 @@ if (isset($_POST['login'])) {
     if (!$result) {
         echo '<p class="error">Usuario o contraseña incorrectos</p>';
     } else {
-        if (password_verify($password, $result['PASSWORD'])) {
-            $_SESSION['user_id'] = $result['ID'];
+        if (password_verify($password, $result['password'])) {
+            $_SESSION['user_id'] = $result['id'];
             echo '<p class="success">Inicio de sesión exitoso</p>';
         } else {
             echo '<p class="error">Usuario o contraseña incorrectos</p>';
