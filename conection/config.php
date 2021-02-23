@@ -1,7 +1,7 @@
 <?php
 define('USER', 'root');
 define('PASSWORD', 'root');
-define('HOST', 'localhost');
+define('HOST', 'localhost:3308');
 define('DATABASE', 'prueba');
  
 try {

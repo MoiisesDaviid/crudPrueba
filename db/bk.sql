@@ -30,6 +30,9 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 -- Volcando datos para la tabla prueba.users: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` (`id`, `username`, `password`, `tipo`, `email`) VALUES
+	(1, 'moisespolo', '$2y$10$5jppMrknSdPARKyYWbae/udQRcWEONDZAIdurhAhgNpa5NDFxKBdu', 1, 'mdpolo@gmail.com'),
+	(2, 'moises', '$2y$10$6e2IBCkbp34OmmM.BdfAWOWTSuf56Pgjmr6oQFTGbEcRDbS1GN1H6', 1, 'mdpolo1@gmail');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

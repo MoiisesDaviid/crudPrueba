@@ -23,7 +23,7 @@ include('header.php');
                 </div> <br />
                 <div class="form-group">
                     <label><b>Tipo Usuario</b></label>
-                    <select class="form-select" aria-label="Default select example">
+                    <select class="form-select" aria-label="Default select example" name="tipo">
                         <option disabled>Seleccionar</option>
                         <option value="1">Administrador</option>
                         <option value="2">Usuario</option>
